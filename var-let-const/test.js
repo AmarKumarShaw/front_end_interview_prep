@@ -8,8 +8,9 @@ if (true){
     let a  = "Hi";
     let b = "Goodbye";
     console.log(a)
-    console.log(b)
+    // console.log(b)
 }
+console.log(a)
 }
 
 test()
