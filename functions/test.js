@@ -53,3 +53,11 @@ function square(num){ //This is called as Parameter
 }
 square(5)
 //  This is called as Arguments
+
+// Spread Operator and Rest operator 
+function multiply(...nums){ //Here it is called Num operator
+    console.log(nums[0]*nums[1])
+   
+}
+var arr =[5,6];
+multiply(...arr); // Here it is called Spread Operator
