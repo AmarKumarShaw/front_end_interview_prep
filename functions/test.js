@@ -61,3 +61,9 @@ function multiply(...nums){ //Here it is called Num operator
 }
 var arr =[5,6];
 multiply(...arr); // Here it is called Spread Operator
+
+// What is callback function 
+//Callbavk function is a function which is to be executed after another fucntion bhas been executed
+document.addEventListener("click",function(params){
+
+})
