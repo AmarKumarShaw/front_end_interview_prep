@@ -67,3 +67,27 @@ multiply(...arr); // Here it is called Spread Operator
 document.addEventListener("click",function(params){
 
 })
+
+
+// Arrow Function 
+const add = (firstNum,secondNum) =>{
+    return firstNum = secondNum
+}
+
+// Difference between Regular Function vs Arrow Function
+// 1 Syntax 
+function sum (num){
+    return num * num ;
+}
+
+const square = (num) => {
+    return num * num ;
+}
+
+// 2 Implict  "return" keyword  
+const squareArrow = (num) => num * num
+
+// Constructors:
+
+// Regular function: Can be used as constructors (with the new keyword).
+// Arrow function: Cannot be used as constructors; trying to do so will throw an error.
